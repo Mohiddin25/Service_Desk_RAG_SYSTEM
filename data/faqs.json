@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": "FAQ001",
+    "category": "password",
+    "question": "How do I reset my password?",
+    "answer": "Go to the company login page and click on the 'Forgot Password' option. Enter your registered email address and follow the password reset instructions sent to your email."
+  },
+  {
+    "id": "FAQ002",
+    "category": "network",
+    "question": "My laptop is not connecting to Wi-Fi. What should I do?",
+    "answer": "Make sure Wi-Fi is enabled and airplane mode is disabled. Try disconnecting and reconnecting to the office Wi-Fi network. Restart your laptop if the problem continues."
+  },
+  {
+    "id": "FAQ003",
+    "category": "network",
+    "question": "How do I connect to the office Wi-Fi?",
+    "answer": "Open the Wi-Fi settings on your device, select the official office network, enter your company credentials if required, and connect."
+  },
+  {
+    "id": "FAQ004",
+    "category": "software",
+    "question": "A software application is not opening.",
+    "answer": "Close the application completely and try opening it again. Restart your computer if necessary. If the issue continues, check whether the application requires an update."
+  },
+  {
+    "id": "FAQ005",
+    "category": "hardware",
+    "question": "My laptop is running very slowly.",
+    "answer": "Restart your laptop and close unnecessary applications. Check available storage space and ensure your operating system is updated. If the problem continues, contact the IT helpdesk."
+  },
+  {
+    "id": "FAQ006",
+    "category": "account_access",
+    "question": "My company account is locked.",
+    "answer": "Wait for the account lock period to expire if applicable. If you cannot access your account, contact the IT helpdesk or submit an account access ticket."
+  },
+  {
+    "id": "FAQ007",
+    "category": "hardware",
+    "question": "My laptop is not turning on.",
+    "answer": "Check whether the charger is properly connected and the power outlet is working. Hold the power button for several seconds and try turning the laptop on again. If the issue continues, create a hardware support ticket."
+  },
+  {
+    "id": "FAQ008",
+    "category": "software",
+    "question": "How do I request software installation?",
+    "answer": "Create an IT support ticket and mention the software name, version if known, and the reason you require it. The IT team will review and process your request."
+  },
+  {
+    "id": "FAQ009",
+    "category": "security",
+    "question": "I received a suspicious email. What should I do?",
+    "answer": "Do not click any links or download attachments from the email. Report the suspicious email to the IT security team and create a security support ticket if required."
+  },
+  {
+    "id": "FAQ010",
+    "category": "network",
+    "question": "The internet connection is very slow.",
+    "answer": "Check whether other websites or applications are also slow. Disconnect and reconnect to the network. Restart your device if necessary. If multiple employees are experiencing the issue, report it to the IT helpdesk."
+  }
+]
