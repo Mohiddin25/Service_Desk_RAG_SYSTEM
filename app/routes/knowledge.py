@@ -1,4 +1,4 @@
-from services.embeddings import embedding_model
+from app.services.embeddings import embedding_model
 from pinecone_db import index
 from typing import List
 from models.schema import FAQ

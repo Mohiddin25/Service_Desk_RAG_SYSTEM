@@ -2,10 +2,10 @@ from langchain_ollama import ChatOllama
 from pathlib import Path
 
 from langchain_chroma import Chroma
-from services.embeddings import embedding_model
-from services.embeddings import create_embedding
-from services.llms_service import generate_answer
-from services.vector_service import search_vectors
+from app.services.embeddings import embedding_model
+from app.services.embeddings import create_embedding
+from app.services.llms_service import generate_answer
+from app.services.vector_service import search_vectors
 
 # # --------------------------------------------------
 # # Paths
