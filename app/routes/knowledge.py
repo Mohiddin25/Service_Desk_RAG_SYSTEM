@@ -1,7 +1,7 @@
 from app.services.embeddings import embedding_model
 from pinecone_db import index
 from typing import List
-from models.schema import FAQ
+from app.models.schema import FAQ
 
 
 
