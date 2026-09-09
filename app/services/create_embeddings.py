@@ -2,7 +2,6 @@ import json
 from pathlib import Path
 
 from langchain_core.documents import Document
-from langchain_chroma import Chroma
 from app.services.embeddings import embedding_model
 
 
