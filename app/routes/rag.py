@@ -1,6 +1,5 @@
 from pathlib import Path
 
-from langchain_chroma import Chroma
 from app.services.embeddings import embedding_model
 from app.services.embeddings import create_embedding
 from app.services.llms_service import generate_answer
