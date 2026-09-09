@@ -5,7 +5,7 @@ from app.models.schema import FAQ
 
 
 
-def add_faq(faq: FAQ):
+def add_FAQ(faq: FAQ):
     # 1. Combine question and answer 
     text = f""" Question: {faq.question} Answer: {faq.answer} """
 
@@ -23,7 +23,7 @@ def add_faq(faq: FAQ):
 
     return { "message": "FAQ added successfully", "id": faq.id, "dimension": len(vector) }
 
-def add_faqs(faqs: List[FAQ]):
+def add_FAQs(faqs: List[FAQ]):
     vectors = []
     for faq in faqs:
         # 1. Combine question and answer 

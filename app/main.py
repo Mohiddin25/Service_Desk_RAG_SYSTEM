@@ -4,10 +4,7 @@ from typing import List
 from fastapi import FastAPI
 from app.models.schema import QueryRequest, FAQ
 from app.routes.rag import get_answer 
-
-
-from app.routes.rag import get_answer
-from app.routes.knowledge import add_faq, add_faqs
+from app.routes.knowledge import add_FAQ, add_FAQs
 
 app=FastAPI()
 
@@ -27,13 +24,13 @@ def query_rag(query: QueryRequest):
 # dynamic route to add knowledge to the vector store
 @app.post("/knowledge/faq")
 def add_faq(faq: FAQ):
-    return add_faq(faq)
+    return add_FAQ(faq)
 
 
 # Add bulk knowledge to the vector store
 @app.post("/knowledge/faqs")
 def add_faqs(faqs: List[FAQ]):
-    return add_faqs(faqs)
+    return add_FAQs(faqs)
 
 
 
