@@ -1,4 +1,3 @@
-from langchain_ollama import ChatOllama
 from pathlib import Path
 
 from langchain_chroma import Chroma
