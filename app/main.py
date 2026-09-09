@@ -2,12 +2,12 @@
 from typing import List
 
 from fastapi import FastAPI
-from models.schema import QueryRequest, FAQ
-from routes.rag import get_answer 
+from app.models.schema import QueryRequest, FAQ
+from app.routes.rag import get_answer 
 
 
-from routes.rag import get_answer
-from routes.knowledge import add_faq, add_faqs
+from app.routes.rag import get_answer
+from app.routes.knowledge import add_faq, add_faqs
 
 app=FastAPI()
 
